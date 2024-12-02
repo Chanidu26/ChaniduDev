@@ -1,14 +1,14 @@
 import React from 'react'
-
+import profile from '../assets/profile.JPG'
 const Home = () => {
   return (
     <div className="bg-gray-100 dark:bg-gray-900">
-        <section className="h-screen flex items-center justify-center  text-white">
-        <div className="text-center px-6 md:px-12">
+        <section className="h-screen flex items-center justify-center text-white">
+        <div className="text-center px-6 md:px-12 mt-0">
         <img
-          src="https://via.placeholder.com/500"
+          src={profile}
           alt="Profile"
-          className="rounded-lg shadow-lg"
+          className="mx-auto rounded-lg shadow-lg w-45 h-auto sm:w-48 md:w-60 lg:w-72"
         />
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             Hi, I'm Chanidu
