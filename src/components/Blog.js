@@ -4,14 +4,15 @@ import blogs from '../data/blogs'
 const Blog = () => {
   
   return (
-    <div className="min-h-screen bg-gray-900 text-gray-100">
+    <section id='blog'>
+    <div className="min-h-screen bg-gray-900 text-gray-100 py-12 ">
       {/* Header */}
       <header className="py-6 text-center">
         <h1 className="text-4xl font-bold">My Blog</h1>
       </header>
 
       {/* Blog Cards */}
-      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-6">
         {blogs.map((blog) => (
           <div
             key={blog.id}
@@ -39,6 +40,7 @@ const Blog = () => {
         ))}
       </div>
     </div>
+  </section>
   )
 }
 

@@ -3,7 +3,8 @@ import projects from '../data/projects'
 
 const Projects = () => {
   return (
-    <div className="min-h-screen bg-gray-900 py-10">
+    <section id="projects">
+    <div className="min-h-screen bg-gray-900 pt-20">
       <div className="container mx-auto px-6">
         <h1 className="text-4xl font-bold text-center text-white mb-8">
           My Projects
@@ -51,6 +52,7 @@ const Projects = () => {
         </div>
       </div>
     </div>
+    </section>
   )
 }
 

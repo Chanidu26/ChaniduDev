@@ -2,8 +2,9 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="bg-gray-900 text-gray-100 min-h-screen flex items-center justify-center">
-      <div className="container mx-auto px-6 py-12">
+    <section id="contact">
+    <div className="bg-gray-900 text-gray-100 min-h-screen flex items-center justify-center ">
+      <div className="container mx-auto px-6 pt-12 mt-10">
         {/* Header */}
         <h2 className="text-4xl font-bold text-center mb-8">
           Get in Touch
@@ -100,6 +101,12 @@ const Contact = () => {
         </div>
       </div>
     </div>
+    <footer className="bg-gray-900 py-10">
+      <p className="text-center text-gray-500">
+        Copyright © 2024 ChaniduDev. All rights reserved.
+      </p>
+    </footer>
+    </section>
   )
 }
 

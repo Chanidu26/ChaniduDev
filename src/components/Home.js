@@ -3,8 +3,9 @@ import profile from "../assets/profile.JPG";
 
 const Home = () => {
   return (
+    <section id="home">
     <div className="min-h-screen bg-gray-900 flex items-center justify-center">
-      <div className="container mx-auto px-6 text-center">
+      <div className="container mx-auto px-6 text-center mt-20">
         {/* Profile Section */}
         <div className="flex flex-col items-center">
           <img
@@ -16,8 +17,8 @@ const Home = () => {
             Hi, I'm <span className="text-yellow-300">Chanidu</span>
           </h1>
           <p className="text-lg text-gray-200 mb-6 max-w-2xl">
-            I'm a passionate developer specializing in <strong>Web Development</strong>, 
-            <strong> DevOps</strong>, and creating beautiful, responsive, and scalable solutions.
+            I'm a passionate tech enthusiast specializing in <strong>DevOps</strong>, 
+            <strong>Cloud</strong>, and creating streamlined, high-performance, and scalable solutions.
           </p>
 
           {/* Social Media Links */}
@@ -74,6 +75,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 
