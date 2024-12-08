@@ -26,7 +26,7 @@ const Home = () => {
               href="https://www.linkedin.com/in/chanidukarunarathna/"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-200 hover:text-blue-400 text-2xl"
+              className="text-gray-200 hover:text-yellow-300 text-2xl"
             >
               <i className="fab fa-linkedin"></i>
             </a>
@@ -34,15 +34,23 @@ const Home = () => {
               href="https://github.com/Chanidu26"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-200 hover:text-gray-500 text-2xl"
+              className="text-gray-200 hover:text-yellow-300 text-2xl"
             >
               <i className="fab fa-github"></i>
+            </a>
+            <a
+              href="https://medium.com/@chanidukarunarathna"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-200 hover:text-yellow-300 text-2xl"
+            >
+              <i className="fab fa-medium"></i>
             </a>
             <a
               href="https://www.behance.net/chanidukarunarathna"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-200 hover:text-blue-300 text-2xl"
+              className="text-gray-200 hover:text-yellow-300 text-2xl"
             >
               <i className="fab fa-behance"></i>
             </a>
