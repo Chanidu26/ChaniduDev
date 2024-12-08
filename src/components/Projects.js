@@ -12,7 +12,7 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-white shadow-md rounded-lg overflow-hidden transform hover:scale-105 transition duration-300"
+              className="bg-gray-800 border border-gray-700 shadow-md rounded-lg overflow-hidden transform hover:scale-105 transition duration-300"
             >
               <img
                 src={project.image}
@@ -20,17 +20,17 @@ const Projects = () => {
                 className="w-full h-48 object-cover"
               />
               <div className="p-6">
-                <h2 className="text-2xl font-bold text-gray-800">
+                <h2 className="text-xl font-bold text-white">
                   {project.title}
                 </h2>
-                <p className="text-gray-600 mt-2">{project.description}</p>
+                <p className="text-gray-300 mt-2">{project.description}</p>
                 <div className="mt-4">
-                  <h3 className="font-medium text-gray-700">Technologies:</h3>
+                  <h3 className="font-medium text-white">Technologies:</h3>
                   <div className="flex flex-wrap mt-2">
                     {project.technologies.map((tech, index) => (
                       <span
                         key={index}
-                        className="bg-blue-100 text-blue-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
+                        className="bg-gray-700 text-yellow-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
                       >
                         {tech}
                       </span>
@@ -41,7 +41,7 @@ const Projects = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-center mt-6 bg-blue-600 text-white py-2 rounded hover:bg-blue-700"
+                  className="block text-center mt-6 bg-yellow-300 text-gray-900 py-2 rounded hover:bg-blue-700"
                 >
                   View Project
                 </a>
