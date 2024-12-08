@@ -2,38 +2,47 @@ import React from 'react'
 import profile from '../assets/profile.JPG'
 const Home = () => {
   return (
-    <div className=" dark:bg-gray-900">
-    <section className="flex items-center justify-center text-white py-16">
-      <div className="flex flex-col md:flex-row items-center gap-8 px-6 md:px-12">
-        {/* Profile Image */}
-        <div className="flex-shrink-0">
+    <div className="min-h-screen bg-gray-900 flex items-center justify-center">
+      <div className="container mx-auto px-6 text-center">
+        {/* Profile Section */}
+        <div className="flex flex-col items-center">
           <img
-            src={profile}
-            alt="Profile"
-            className="rounded-lg shadow-lg w-64 h-auto sm:w-72 md:w-80 lg:w-96"
+            src={profile} // Replace with your photo URL
+            alt="Your Name"
+            className="w-40 h-40 rounded-full border-4 border-white shadow-lg mb-6"
           />
-        </div>
-  
-        {/* Text Content */}
-        <div className="text-center md:text-left">
-          <h1 className="text-4xl md:text-6xl font-bold mt-3 mb-6">
-            Hi, I'm Chanidu
+          <h1 className="text-4xl font-bold text-white mb-4">
+            Hi, I'm <span className="text-yellow-300">Chanidu</span>
           </h1>
-          <p className="text-lg md:text-xl mb-8">
-            Hi, I'm a Developer & Designer specializing in building exceptional web applications.
+          <p className="text-lg text-gray-200 mb-6 max-w-2xl">
+            I'm a passionate developer specializing in <strong>Web Development</strong>, 
+            <strong> DevOps</strong>, and creating beautiful, responsive, and scalable solutions.
           </p>
-          <div>
+          {/* Action Buttons */}
+          <div className="flex space-x-4">
             <a
-              href="#about"
-              className="px-8 py-3 bg-white text-stone-950 rounded-lg shadow-md hover:bg-gray-100 transition"
+              href="#portfolio"
+              className="bg-yellow-300 text-gray-900 py-3 px-6 rounded-full shadow-md hover:bg-yellow-400 hover:shadow-lg transition duration-300"
             >
-              Github
+              View Portfolio
+            </a>
+            <a
+              href="#resume"
+              className="bg-white text-gray-900 py-3 px-6 rounded-full shadow-md hover:bg-gray-100 hover:shadow-lg transition duration-300"
+            >
+              Download Resume
             </a>
           </div>
         </div>
+
+        {/* Footer Section */}
+        <footer className="mt-12">
+          <p className="text-gray-300 text-sm">
+            © {new Date().getFullYear()} Your Name. All rights reserved.
+          </p>
+        </footer>
       </div>
-    </section>
-  </div>
+    </div>
   )
 }
 
