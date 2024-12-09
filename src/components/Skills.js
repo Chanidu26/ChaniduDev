@@ -16,6 +16,7 @@ const Skills = () => {
     { name: 'Git', color: 'bg-red-500', icon: <FaGit className="text-4xl text-white" /> },
     { name: 'Jenkins', color: 'bg-green-800', icon: <FaJenkins className="text-4xl text-white" /> },
     { name: 'Github', color: 'bg-green-500', icon: <FaGithub className="text-4xl text-white" /> },
+  
   ];
 
   return (

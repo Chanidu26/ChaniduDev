@@ -25,7 +25,31 @@ const projects = [
         technologies: ["Jupyter Notebook", "Python", "Machine Learning"],
         image: project3, // Replace with your image URL
         link: "https://example.com/project2",
-      },
+    },
+    {
+      id: 3,
+      title: "Smart Watch Price Prediction Model",
+      description: "trained the ml model using Decision Tree and Random forest algorithms.",
+      technologies: ["Jupyter Notebook", "Python", "Machine Learning"],
+      image: project3, // Replace with your image URL
+      link: "https://example.com/project2",
+    },
+    {
+      id: 3,
+      title: "Smart Watch Price Prediction Model",
+      description: "trained the ml model using Decision Tree and Random forest algorithms.",
+      technologies: ["Jupyter Notebook", "Python", "Machine Learning"],
+      image: project3, // Replace with your image URL
+      link: "https://example.com/project2",
+    },
+    {
+      id: 3,
+      title: "Smart Watch Price Prediction Model",
+      description: "trained the ml model using Decision Tree and Random forest algorithms.",
+      technologies: ["Jupyter Notebook", "Python", "Machine Learning"],
+      image: project3, // Replace with your image URL
+      link: "https://example.com/project2",
+    },
      
   ]
   export default projects

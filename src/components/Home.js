@@ -60,8 +60,9 @@ const Home = () => {
           {/* Action Buttons */}
           <div className="flex space-x-4">
             <a
-              href="#portfolio"
+              href="#projects"
               className="bg-yellow-300 text-gray-900 py-3 px-6 rounded-full shadow-md hover:bg-yellow-400 hover:shadow-lg transition duration-300"
+              
             >
               View Portfolio
             </a>
