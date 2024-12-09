@@ -9,9 +9,9 @@ const blogs = [
       title: "IEEE Xtreme 18.0 | 3rd Place in Srilanka | 93rd Place Global",
       date: "28 Oct 2024",
       description:
-      "Visited a Exciting Field Visit of Creative Software and getting industry experience",
-       image: blog4, // Replace with your blog image URL
-       tag: "Industry",
+      "We are the top 3 in Srilanka and top 100 in global In the biggest 24hr coding marathon",
+       image: blog4, 
+       tag: "Hackathon",
      },
     
     {
