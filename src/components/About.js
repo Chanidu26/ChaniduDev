@@ -1,12 +1,13 @@
 import React from 'react';
-
+import { FaSchool } from "react-icons/fa";
+import { IoSchoolSharp } from "react-icons/io5";
 const About = () => {
   return (
     <section id="about">
     <div className="min-h-screen bg-gray-900 flex items-center justify-center">
       <div className="container mx-auto px-2 md:px-6 py-6">
         {/* Adjusted the margin-top */}
-        <div className="max-w-4xl mx-auto bg-gray-900 shadow-lg rounded-lg overflow-hidden">
+        <div className="max-w-4xl py-5 mx-auto bg-gray-800 shadow-lg rounded-lg overflow-hidden">
           <div className="mt-2 text-center"> {/* Reduced margin */}
             <h1 className="text-4xl font-bold text-white">About Me</h1>
           </div>
@@ -27,10 +28,10 @@ const About = () => {
               Let's connect and create something amazing together!
             </p>
             <p className='mt-4 text-white text-lg leading-relaxed'>
-              Higher Education - University of Ruhuna Computer Engineering (2022 - Present)
+              <IoSchoolSharp /> Higher Education - Bsc (Hons) in Computer Engineering University of Ruhuna (2022 - Present)
              </p>
              <p className='mt-4 text-white text-lg leading-relaxed'>
-              School Education - Mahinda College (2007 - 2020)
+             <FaSchool /> School Education - Mahinda College (2007 - 2020)
                 <li>GCE Advanced Level 2020 Results - AAA</li>
              </p>
           </div>
