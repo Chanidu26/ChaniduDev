@@ -1,10 +1,13 @@
 import React from 'react';
-import { FaNodeJs, FaAws, FaDocker, FaGit, FaJenkins, FaLinux, FaPython, FaJava, FaGithub } from 'react-icons/fa';
-import { SiAnsible, SiTerraform, SiKubernetes } from 'react-icons/si';
+import { FaNodeJs, FaAws, FaDocker, FaGit, FaJenkins, FaLinux,FaPython, FaReact, FaJava, FaGithub, FaInfinity } from 'react-icons/fa';
+import { SiAnsible, SiTerraform, SiKubernetes, SiTailwindcss, SiArduino } from 'react-icons/si';
 
 const Skills = () => {
   const skills = [
+    { name: 'React',color: 'bg-blue-600', icon: <FaReact className="text-4xl text-white" /> },
+    { name: 'Tailwind CSS', color: 'bg-cyan-600', icon: <SiTailwindcss className="text-4xl text-white" /> },
     { name: 'Node.js', color: 'bg-green-600', icon: <FaNodeJs className="text-4xl text-white" /> },
+    { name: 'DevOps', color: 'bg-yellow-600', icon: <FaInfinity className="text-4xl text-white" /> },
     { name: 'Ansible', color: 'bg-red-600', icon: <SiAnsible className="text-4xl text-white" /> },
     { name: 'Terraform', color: 'bg-purple-600', icon: <SiTerraform className="text-4xl text-white" /> },
     { name: 'AWS', color: 'bg-orange-600', icon: <FaAws className="text-4xl text-white" /> },
@@ -16,14 +19,17 @@ const Skills = () => {
     { name: 'Git', color: 'bg-red-500', icon: <FaGit className="text-4xl text-white" /> },
     { name: 'Jenkins', color: 'bg-green-800', icon: <FaJenkins className="text-4xl text-white" /> },
     { name: 'Github', color: 'bg-green-500', icon: <FaGithub className="text-4xl text-white" /> },
+    { name: 'Arduino', color: 'bg-gray-600', icon: <SiArduino className="text-4xl text-white" /> },
+
+    
   
   ];
 
   return (
     <section id='skills'>
-    <div className="min-h-screen bg-gray-900 flex items-center justify-center py-12">
+    <div className="min-h-screen dark:bg-gray-900 flex items-center justify-center py-12">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-center text-white mb-12">
+        <h2 className="text-4xl font-bold text-center dark:text-white mb-12">
           My Skills
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">

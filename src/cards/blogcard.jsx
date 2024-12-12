@@ -4,7 +4,7 @@ const blogcard = ({id , image , title , description , date , tag}) => {
   return (
     <div
             key={id}
-            className="bg-gray-800 rounded-lg shadow-md overflow-hidden"
+            className="dark:bg-gray-800 rounded-lg shadow-2xl overflow-hidden"
           >
             {/* Blog Image */}
             <img
@@ -14,13 +14,13 @@ const blogcard = ({id , image , title , description , date , tag}) => {
             />
             {/* Blog Content */}
             <div className="p-6">
-              <p className="text-sm text-gray-400 mb-2">
+              <p className="text-sm dark:text-gray-400 mb-2">
                 Published {date}
               </p>
               <h2 className="text-xl font-bold mb-2">{title}</h2>
-              <p className="text-gray-300 mb-4">{description}</p>
+              <p className="dark:text-gray-300 mb-4">{description}</p>
               {/* Blog Tag */}
-              <span className="inline-block bg-yellow-300 text-xs font-medium text-black py-1 px-3 rounded-full">
+              <span className="inline-block bg-yellow-300 text-xs font-medium dark:text-black py-1 px-3 rounded-full">
                 #{tag}
               </span>
             </div>

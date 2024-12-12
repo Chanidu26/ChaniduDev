@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaBehance, FaEnvelope, FaPhone } from 'react-icon
 const Contact = () => {
   return (
     <section id="contact">
-      <div className="bg-gray-900 text-gray-100 min-h-screen flex items-center justify-center">
+      <div className="dark:bg-gray-900 dark:text-gray-100 min-h-screen flex items-center justify-center">
         <div className="container mx-auto px-6 pt-12 mt-10">
           {/* Header */}
           <h2 className="text-4xl font-bold text-center mb-8">Get in Touch</h2>
@@ -12,7 +12,7 @@ const Contact = () => {
           {/* Contact Section */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
+            <div className=" dark:bg-gray-800 p-5 lg:p-8 rounded-lg shadow-2xl">
               <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
               <form action="#" method="POST">
                 <div className="mb-4">
@@ -24,7 +24,7 @@ const Contact = () => {
                     id="name"
                     name="name"
                     placeholder="Enter your name"
-                    className="w-full mt-2 px-4 py-2 bg-gray-700 text-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300"
+                    className="w-full mt-2 px-4 py-2 dark:bg-gray-700 dark:text-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300"
                   />
                 </div>
                 <div className="mb-4">
@@ -36,7 +36,7 @@ const Contact = () => {
                     id="email"
                     name="email"
                     placeholder="Enter your email"
-                    className="w-full mt-2 px-4 py-2 bg-gray-700 text-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300"
+                    className="w-full mt-2 px-4 py-2 dark:bg-gray-700 dark:text-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300"
                   />
                 </div>
                 <div className="mb-6">
@@ -48,7 +48,7 @@ const Contact = () => {
                     name="message"
                     rows="4"
                     placeholder="Write your message here"
-                    className="w-full mt-2 px-4 py-2 bg-gray-700 text-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300"
+                    className="w-full mt-2 px-4 py-2 dark:bg-gray-700 dark:text-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300"
                   ></textarea>
                 </div>
                 <button
@@ -67,11 +67,11 @@ const Contact = () => {
                 <h3 className="text-xl font-semibold mb-4">Contact Information</h3>
                 <div className="flex items-center space-x-3  mb-4 ">
                   <FaEnvelope className="text-yellow-300 text-xl" />
-                  <p className="text-gray-300">ckkarunarathna@gmail.com</p>
+                  <p className="dark:text-gray-300">ckkarunarathna@gmail.com</p>
                 </div>
                 <div className="flex items-center space-x-3 ">
                   <FaPhone className="text-yellow-300 text-xl" />
-                  <p className="text-gray-300">+94 76 264 0254</p>
+                  <p className="dark:text-gray-300">+94 76 264 0254</p>
                 </div>
               </div>
 
@@ -81,7 +81,7 @@ const Contact = () => {
                   href="https://www.linkedin.com/in/chanidukarunarathna/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-yellow-300 text-3xl"
+                  className="dark:text-gray-300 hover:text-yellow-300 text-3xl"
                 >
                   <FaLinkedin />
                 </a>
@@ -89,7 +89,7 @@ const Contact = () => {
                   href="https://github.com/Chanidu26"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-gray-500 text-3xl"
+                  className="dark:text-gray-300 hover:text-gray-500 text-3xl"
                 >
                   <FaGithub />
                 </a>
@@ -97,7 +97,7 @@ const Contact = () => {
                   href="https://www.behance.net/chanidukarunarathna"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-gray-300 hover:text-blue-300 text-3xl"
+                  className="dark:text-gray-300 hover:text-blue-300 text-3xl"
                 >
                   <FaBehance />
                 </a>
@@ -106,8 +106,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <footer className="bg-gray-900 py-10">
-        <p className="text-center text-gray-500">
+      <footer className="dark:bg-gray-900 py-10">
+        <p className="text-center text-gray-500 text-[14px] lg:text-[16px]">
           Copyright © 2024 ChaniduDev. All rights reserved.
         </p>
       </footer>
