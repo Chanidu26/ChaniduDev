@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/ChaniduDev/static/css/main.b6621797.css",
+    "main.js": "/ChaniduDev/static/js/main.9e34133e.js",
+    "static/js/453.8c0f2bdb.chunk.js": "/ChaniduDev/static/js/453.8c0f2bdb.chunk.js",
+    "static/media/fa-solid-900.ttf": "/ChaniduDev/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
+    "static/media/docker.png": "/ChaniduDev/static/media/docker.7d6de1eb31211b88688b.png",
+    "static/media/fa-brands-400.ttf": "/ChaniduDev/static/media/fa-brands-400.26b80c8830bebf340211.ttf",
+    "static/media/blog3.jpeg": "/ChaniduDev/static/media/blog3.09aa1e61a4dd9d891fd4.jpeg",
+    "static/media/fa-solid-900.woff2": "/ChaniduDev/static/media/fa-solid-900.83a538a018a9e44b023a.woff2",
+    "static/media/profile.JPG": "/ChaniduDev/static/media/profile.5229b5fb69ca72ba345c.JPG",
+    "static/media/fa-brands-400.woff2": "/ChaniduDev/static/media/fa-brands-400.fdbb558523a380307689.woff2",
+    "static/media/blog1.jpeg": "/ChaniduDev/static/media/blog1.2fba19b2b0949af2d427.jpeg",
+    "static/media/fa-regular-400.ttf": "/ChaniduDev/static/media/fa-regular-400.05fdd87be89f7f8f0a1e.ttf",
+    "static/media/project3.png": "/ChaniduDev/static/media/project3.0e260d75cca7d041c27a.png",
+    "static/media/project2.jpg": "/ChaniduDev/static/media/project2.aecf9a2003a29c01e2dc.jpg",
+    "static/media/blog2.jpeg": "/ChaniduDev/static/media/blog2.b0050175ad3645293649.jpeg",
+    "static/media/blog4.png": "/ChaniduDev/static/media/blog4.a7fdf53753a0b3925a88.png",
+    "static/media/fa-regular-400.woff2": "/ChaniduDev/static/media/fa-regular-400.4f6a2dabee9c092d09b9.woff2",
+    "static/media/fa-v4compatibility.ttf": "/ChaniduDev/static/media/fa-v4compatibility.fa86b3c85e77abbd2ebd.ttf",
+    "static/media/fa-v4compatibility.woff2": "/ChaniduDev/static/media/fa-v4compatibility.c3ea317a0f10f201597f.woff2",
+    "static/media/slick.svg": "/ChaniduDev/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/ChaniduDev/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/ChaniduDev/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/ChaniduDev/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/ChaniduDev/index.html",
+    "main.b6621797.css.map": "/ChaniduDev/static/css/main.b6621797.css.map",
+    "main.9e34133e.js.map": "/ChaniduDev/static/js/main.9e34133e.js.map",
+    "453.8c0f2bdb.chunk.js.map": "/ChaniduDev/static/js/453.8c0f2bdb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6621797.css",
+    "static/js/main.9e34133e.js"
+  ]
+}
