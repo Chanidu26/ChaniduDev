@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ChaniduDev/static/css/main.b6621797.css",
-    "main.js": "/ChaniduDev/static/js/main.9e34133e.js",
+    "main.css": "/ChaniduDev/static/css/main.f3606b3f.css",
+    "main.js": "/ChaniduDev/static/js/main.fcad04f8.js",
     "static/js/453.8c0f2bdb.chunk.js": "/ChaniduDev/static/js/453.8c0f2bdb.chunk.js",
     "static/media/fa-solid-900.ttf": "/ChaniduDev/static/media/fa-solid-900.ad1782c70927ebc5bc87.ttf",
     "static/media/docker.png": "/ChaniduDev/static/media/docker.7d6de1eb31211b88688b.png",
@@ -24,12 +24,12 @@
     "static/media/slick.ttf": "/ChaniduDev/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ChaniduDev/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ChaniduDev/index.html",
-    "main.b6621797.css.map": "/ChaniduDev/static/css/main.b6621797.css.map",
-    "main.9e34133e.js.map": "/ChaniduDev/static/js/main.9e34133e.js.map",
+    "main.f3606b3f.css.map": "/ChaniduDev/static/css/main.f3606b3f.css.map",
+    "main.fcad04f8.js.map": "/ChaniduDev/static/js/main.fcad04f8.js.map",
     "453.8c0f2bdb.chunk.js.map": "/ChaniduDev/static/js/453.8c0f2bdb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6621797.css",
-    "static/js/main.9e34133e.js"
+    "static/css/main.f3606b3f.css",
+    "static/js/main.fcad04f8.js"
   ]
 }
