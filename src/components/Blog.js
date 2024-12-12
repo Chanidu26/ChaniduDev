@@ -6,7 +6,7 @@ const Blog = () => {
   
   return (
     <section id='blog'>
-    <div className="min-h-screen bg-gray-900 text-gray-100 py-12 ">
+    <div className="min-h-screen dark:bg-gray-900 dark:text-gray-100 py-12 ">
       {/* Header */}
       <header className="py-6 text-center">
         <h1 className="text-4xl font-bold">Featured</h1>
