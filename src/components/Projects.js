@@ -7,9 +7,10 @@ const Projects = () => {
     <div className="min-h-screen bg-gray-900 pt-20">
       <div className="container mx-auto px-6">
         <h1 className="text-4xl font-bold text-center text-white mb-8">
-          My Projects
+          My Portfolios
         </h1>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+        
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 pt-3">
           {projects.map((project) => (
             <Projectcard
             key={project.id}
