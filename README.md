@@ -68,9 +68,9 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 
 For inquiries, feedback, or collaborations:
 
-- **Email**: [ckkarunarathna26@gmail.com](mailto:ckkarunarathna26@gmail.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/chanidukarunarathna)
-- **Portfolio Link**: [https://chanidu26.github.io/ChaniduDev/]
+- **Email**: [Email](mailto:ckkarunarathna26@gmail.com)
+- **LinkedIn**: [Linkedin](https://linkedin.com/in/chanidukarunarathna)
+- **Portfolio**: [Visit portfolio](https://chanidu26.github.io/ChaniduDev/)
 
 ---
 
