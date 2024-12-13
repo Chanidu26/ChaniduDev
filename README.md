@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# ChaniduDev
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my new portfolio website! This project showcases my skills, projects, and experiences in a visually appealing and interactive way. It's built with modern web technologies and is fully responsive for an optimal user experience across devices.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Interactive Navbar**: Eye-catching navbar styled with Tailwind CSS.
+- **Project Showcase**: Displays my projects with descriptions, technologies used, and links to live demos or GitHub repositories.
+- **Featured blogs**: Displays My latest Achievements and special Moments
+- **Contact Form**: Shows that how to interact with me
+- **Dark Mode**: Enables darkmode feature for interactive user experience
+- **About Me Section**: A brief introduction highlighting my skills, education, and interests.
+- **Responsive Design**: Mobile-first approach for seamless viewing on any device.
+- **Contact Form**: An interactive form for visitors to reach out to me directly.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React.js
+- **Styling**: Tailwind css
+- **Animation**: Framer Motion
+- **Hosting**: Github Pages
+- **Form Handling**: Email.js
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation and Setup
 
-### `npm test`
+To run this project locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/yourusername/portfolio-website.git
+   cd portfolio-website
+   ```
 
-### `npm run build`
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Run the Development Server**:
+   ```bash
+   npm start
+   ```
+   Visit `http://localhost:3000` in your browser.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. **Build for Production**:
+   ```bash
+   npm run build
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Folder Structure
 
-### `npm run eject`
+```
+ChaniduDev/
+├── public/           # Static assets
+├── src/              # Source files
+│   ├── components/   # All pages and components
+│   ├── assets/       # My static assets
+│   ├── cards/        # Project card components
+│   ├── data/         # static data for components
+│   └── App.js        # Main application file
+└── package.json      # Project metadata and dependencies
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contact
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+For inquiries, feedback, or collaborations:
 
-## Learn More
+- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourusername)
+- **Portfolio Link**: [Add your deployed portfolio link here]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting ChaniduDev! 🚀
