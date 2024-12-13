@@ -24,7 +24,7 @@ const Contact = () => {
                     id="name"
                     name="name"
                     placeholder="Enter your name"
-                    className="w-full mt-2 px-4 py-2 dark:bg-gray-700 dark:text-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300"
+                    className="w-full mt-2 px-4 py-2 bg-gray-100 dark:bg-gray-700 dark:text-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300"
                   />
                 </div>
                 <div className="mb-4">
@@ -36,7 +36,7 @@ const Contact = () => {
                     id="email"
                     name="email"
                     placeholder="Enter your email"
-                    className="w-full mt-2 px-4 py-2 dark:bg-gray-700 dark:text-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300"
+                    className="w-full mt-2 px-4 py-2 bg-gray-100 dark:bg-gray-700 dark:text-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300"
                   />
                 </div>
                 <div className="mb-6">
@@ -48,7 +48,7 @@ const Contact = () => {
                     name="message"
                     rows="4"
                     placeholder="Write your message here"
-                    className="w-full mt-2 px-4 py-2 dark:bg-gray-700 dark:text-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300"
+                    className="w-full mt-2 px-4 py-2 bg-gray-100 dark:bg-gray-700 dark:text-gray-100 rounded-lg focus:outline-none focus:ring-2 focus:ring-yellow-300"
                   ></textarea>
                 </div>
                 <button
@@ -81,7 +81,7 @@ const Contact = () => {
                   href="https://www.linkedin.com/in/chanidukarunarathna/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="dark:text-gray-300 hover:text-yellow-300 text-3xl"
+                  className="dark:text-gray-300 text-3xl"
                 >
                   <FaLinkedin />
                 </a>
@@ -89,7 +89,7 @@ const Contact = () => {
                   href="https://github.com/Chanidu26"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="dark:text-gray-300 hover:text-gray-500 text-3xl"
+                  className="dark:text-gray-300 text-3xl"
                 >
                   <FaGithub />
                 </a>
@@ -97,7 +97,7 @@ const Contact = () => {
                   href="https://www.behance.net/chanidukarunarathna"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="dark:text-gray-300 hover:text-blue-300 text-3xl"
+                  className="dark:text-gray-300 text-3xl"
                 >
                   <FaBehance />
                 </a>

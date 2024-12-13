@@ -33,7 +33,7 @@ const Projectcard = ({id,image,title,description,technologies,link}) => {
                   href={link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block text-center mt-3 bg-yellow-300 text-gray-900 py-2 rounded hover:bg-blue-700"
+                  className="block text-center mt-3 bg-yellow-300 text-gray-900 py-2 rounded hover:bg-yellow-400"
                 >
                   View Project
                 </a>

@@ -1,6 +1,5 @@
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
@@ -9,6 +8,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
 import { useState } from'react';
+import DarkMode from './components/Darkmode';
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -26,13 +26,7 @@ function App() {
       <Skills />
       <Projects />
       <Contact />
-      <button
-        onClick={toggleDarkMode}
-        className="fixed bottom-4 right-4 bg-gray-800 text-white p-3 rounded-full shadow-lg hover:bg-gray-700 transition duration-300"
-        title={darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-      >
-        {darkMode ? '☀️' : '🌙'}
-      </button>
+      <DarkMode />
     </div>
   );
 }
