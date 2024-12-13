@@ -28,7 +28,6 @@ To run this project locally:
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/portfolio-website.git
-   cd portfolio-website
    ```
 
 2. **Install Dependencies**:
@@ -69,9 +68,9 @@ Contributions are welcome! Feel free to open issues or submit pull requests to i
 
 For inquiries, feedback, or collaborations:
 
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourusername)
-- **Portfolio Link**: [Add your deployed portfolio link here]
+- **Email**: [ckkarunarathna26@gmail.com](mailto:ckkarunarathna26@gmail.com)
+- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/chanidukarunarathna)
+- **Portfolio Link**: [https://chanidu26.github.io/ChaniduDev/]
 
 ---
 
