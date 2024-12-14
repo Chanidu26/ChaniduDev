@@ -11,10 +11,10 @@ const Darkmode = () => {
   return (
     <button
         onClick={toggleDarkMode}
-        className="fixed bottom-4 right-4 bg-gray-800 text-white p-3 rounded-full shadow-lg hover:bg-gray-700 transition duration-300"
+        className="fixed bottom-4 right-4 dark:bg-gray-800 bg-gray-200 text-white p-3 rounded-full shadow-lg dark:hover:bg-gray-700 hover:bg-gray-300 transition duration-300"
         title={darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
           >
-            {darkMode ? <MdOutlineLightMode className='text-2xl'/> : <MdOutlineDarkMode className='text-2xl' />}
+            {darkMode ? <MdOutlineLightMode className='text-2xl'/> : <MdOutlineDarkMode className='text-2xl text-gray-800' />}
     </button>
   )
 }
