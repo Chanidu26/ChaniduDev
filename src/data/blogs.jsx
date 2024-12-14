@@ -19,7 +19,7 @@ const blogs = [
       title: "Field Visit 2024 | Creative Software",
       date: "29 Oct 2024",
       description:
-        "Visited a Exciting Field Visit of Creative Software and getting industry experience",
+        "Be part of a Exciting Field Visit of Creative Software and getting industry experience",
       image: blog1, // Replace with your blog image URL
       tag: "Industry",
     },
@@ -28,7 +28,7 @@ const blogs = [
       title: "Student Volunteer",
       date: "05 Sep 2024",
       description:
-        "Excited a recognized as a one of the Best Volunteers in August 2024 at IEEE Student Branch University of Ruhuna",
+        "Excited to be recognized as a one of the Best Volunteers at IEEE Student Branch and SEDS Ruhuna",
       image: blog2,
       tag: "Volunteering",
     },
