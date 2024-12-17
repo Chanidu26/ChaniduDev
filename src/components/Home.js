@@ -9,7 +9,7 @@ const Home = () => {
         {/* Profile Section */}
         <div className="flex flex-col items-center">
           <img
-            src={profile} // Replace with your photo URL
+            src={profile}
             alt="Chanidu"
             className="w-60 h-60 rounded-full border-2 border-white shadow-lg mb-6 "
           />
@@ -64,7 +64,7 @@ const Home = () => {
               className="bg-yellow-300 text-gray-900 py-2 px-4 lg:py-3 lg:px-4  rounded-full shadow-md hover:bg-yellow-400 hover:shadow-lg transition duration-300"
               
             >
-              View Portfolio
+              View Portfolios
             </a>
             <a
               href="#resume"
