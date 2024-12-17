@@ -2,7 +2,18 @@ import blog1 from '../assets/blog1.jpeg'
 import blog2 from '../assets/blog2.jpeg'
 import blog3 from '../assets/blog3.jpeg'
 import blog4 from '../assets/blog4.png'
+import blog5 from '../assets/blog5.png'
 const blogs = [
+     
+      {
+        id: 5,
+        title: "Azure Cloud Certified",
+        date: "17 Dec 2024",
+        description:
+          "Officially Get Certified with Microsoft Certified Azure Fundamentals (az-900)",
+        image: blog5,
+        tag: "Certification",
+     },
      
      {
       id: 1,
@@ -41,6 +52,5 @@ const blogs = [
       image: blog3,
       tag: "Events",
     },
-    // Add more blog entries here
   ];
 export default blogs;
