@@ -4,7 +4,7 @@ const Projectcard = ({id,image,title,description,technologies,link}) => {
   return (
          <div
               key={id}
-              className="dark:bg-gray-800 border border-gray-300 shadow-2xl border dark:border-gray-700 shadow-md rounded-lg overflow-hidden transform hover:scale-105 transition duration-300"
+              className="dark:bg-gray-800 border border-gray-300 shadow-2xl dark:border-gray-700 rounded-lg overflow-hidden transform hover:scale-105 transition duration-300"
             >
               <img
                 src={image}
@@ -18,11 +18,11 @@ const Projectcard = ({id,image,title,description,technologies,link}) => {
                 <p className="dark:text-gray-300 mt-1">{description}</p>
                 <div className="mt-2">
                   <h3 className="font-medium dark:text-white">Technologies:</h3>
-                  <div className="flex flex-wrap mt-2">
+                  <div className="flex flex-wrap mt-2 gap-1">
                     {technologies.map((tech, index) => (
                       <span
                         key={index}
-                        className="bg-gray-700 dark:bg-gray-700 text-yellow-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
+                        className="bg-gray-100 text-yellow-500 dark:bg-gray-700 dark:text-yellow-300 text-xs font-medium mr-2 px-2.5 py-0.5 rounded"
                       >
                         {tech}
                       </span>
