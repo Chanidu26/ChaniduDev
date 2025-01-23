@@ -11,11 +11,11 @@ const Projectcard = ({id,image,title,description,technologies,link}) => {
                 alt={title}
                 className="w-full h-48 object-cover"
               />
-              <div className="p-3">
+              <div className="p-5">
                 <h2 className="text-xl font-bold dark:text-white">
                   {title}
                 </h2>
-                <p className="dark:text-gray-300 mt-1">{description}</p>
+                <p className="dark:text-gray-300 text-[15px] mt-1">{description}</p>
                 <div className="mt-2">
                   <h3 className="font-medium dark:text-white">Technologies:</h3>
                   <div className="flex flex-wrap mt-2 gap-1">

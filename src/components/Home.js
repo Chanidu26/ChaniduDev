@@ -1,7 +1,17 @@
 import React from "react";
 import profile from "../assets/profile.JPG";
-
+import CV from "../data/ChaniduKarunarathna.pdf";
 const Home = () => {
+    const handleDownload = () => {
+
+      const link = document.createElement('a');
+      link.href = CV;
+      link.download = 'ChaniduKarunarathna.pdf';
+ 
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
   return (
     <section id="home">
     <div className="min-h-screen text-black dark:bg-gray-900 dark:text-gray-100  flex items-center justify-center">
@@ -67,6 +77,7 @@ const Home = () => {
               View Portfolios
             </a>
             <a
+              onClick={handleDownload}
               href="#resume"
               className="bg-gray-900 text-white dark:bg-white dark:text-gray-900 py-2 px-4 lg:py-3 lg:px-4 rounded-full shadow-md  hover:shadow-lg transition duration-300"
             >
