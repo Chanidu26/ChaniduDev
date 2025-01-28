@@ -1,17 +1,13 @@
 import React from "react";
 import profile from "../assets/profile.JPG";
-import CV from "../data/ChaniduKarunarathna.pdf";
+import { useTypewriter } from "react-simple-typewriter"
 const Home = () => {
-    const handleDownload = () => {
-
-      const link = document.createElement('a');
-      link.href = CV;
-      link.download = 'ChaniduKarunarathna.pdf';
- 
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    };
+    const [ text ] = useTypewriter({
+      words: ['DevOps', 'Cloud', 'Fullstack', 'ML and AI'],
+      loop: true,
+      typeSpeed: 100,
+      deleteSpeed: 50,
+    });
   return (
     <section id="home">
     <div className="min-h-screen text-black dark:bg-gray-900 dark:text-gray-100  flex items-center justify-center">
@@ -26,9 +22,12 @@ const Home = () => {
           <h1 className="text-4xl font-bold dark:text-white mb-4">
             Hi, I'm <span className="text-yellow-300">Chanidu</span>
           </h1>
-          <p className="text-lg dark:text-gray-200 mb-6 max-w-2xl">
-            I'm a passionate tech enthusiast specializing in <strong>DevOps</strong>, 
-            <strong>Cloud</strong>, and creating streamlined, high-performance, and scalable solutions.
+          <h6 className="text-2xl font-bold dark:text-white mb-4">
+            A <span className="text-yellow-300">{text}</span> Engineer
+          </h6>
+          <p className="text-md lg:text-lg dark:text-gray-200 mb-6 max-w-2xl">
+            I'm a passionate tech enthusiast experience working in <strong>DevOps Engineering</strong>, 
+            <strong>Cloud Computing</strong>, <strong>Full Stack Development, Ai and Machine Learning</strong> and creating streamlined, high-performance, and scalable solutions.
           </p>
 
           {/* Social Media Links */}
@@ -77,8 +76,7 @@ const Home = () => {
               View Portfolios
             </a>
             <a
-              onClick={handleDownload}
-              href="#resume"
+              href="https://drive.google.com/file/d/1-8QW1gLAMdD_sgicMeLYz2bLkJ6jZgIy/view?usp=sharing"
               className="bg-gray-900 text-white dark:bg-white dark:text-gray-900 py-2 px-4 lg:py-3 lg:px-4 rounded-full shadow-md  hover:shadow-lg transition duration-300"
             >
               Download Resume

@@ -22,8 +22,8 @@ const projects = [
     {
       id: 3,
       title: "Loan Approval Prediction Model",
-      description: "ML Model to predict loan approval using SVM and Logistic Regression. Accuracy 94%(SVM), 91%(Logistic Regression) , Deployed to AWS through MLOps.",
-      technologies: ["Jupyter Notebook", "Python", "Machine Learning"],
+      description: "ML Model to predict loan approval outcomes using SVM and Logistic Regression. Accuracy 94%(SVM), 91%(Logistic Regression), Deployed to AWS through MLOps.",
+      technologies: ["Jupyter Notebook", "Python", "Machine Learning","MLOps"],
       image: project3, 
       link: "https://github.com/Chanidu26/Loan_Approval_Prediction",
     },
