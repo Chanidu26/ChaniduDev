@@ -25,9 +25,9 @@ const Home = () => {
           <h6 className="text-2xl font-bold dark:text-white mb-4">
             A <span className="text-yellow-300">{text}</span> Engineer
           </h6>
-          <p className="text-md lg:text-lg dark:text-gray-200 mb-6 max-w-2xl">
-            I'm a passionate tech enthusiast experience working in <strong>DevOps Engineering</strong>, 
-            <strong>Cloud Computing</strong>, <strong>Full Stack Development, Ai and Machine Learning</strong> and creating streamlined, high-performance, and scalable solutions.
+          <p className="text-sm lg:text-lg dark:text-gray-200 mb-6 max-w-2xl">
+            I'm a passionate tech enthusiast experience working in <strong>DevOps </strong>, 
+            <strong>Cloud Computing</strong>, <strong>Full Stack Development, Ai and Machine Learning</strong> and creating streamlined Software solutions.
           </p>
 
           {/* Social Media Links */}
@@ -76,7 +76,7 @@ const Home = () => {
               View Portfolios
             </a>
             <a
-              href="https://drive.google.com/file/d/1-8QW1gLAMdD_sgicMeLYz2bLkJ6jZgIy/view?usp=sharing"
+              href="https://drive.google.com/file/d/1yXGYUh5qwR8dWErC22V59aXMVjoHczCB/view?usp=sharing"
               className="bg-gray-900 text-white dark:bg-white dark:text-gray-900 py-2 px-4 lg:py-3 lg:px-4 rounded-full shadow-md  hover:shadow-lg transition duration-300"
             >
               Download Resume
