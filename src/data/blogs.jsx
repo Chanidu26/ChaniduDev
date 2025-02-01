@@ -6,12 +6,12 @@ const blogs = [
      
      {
       id: 1,
-      title: "Azure Cloud Certified",
-      date: "17 Dec 2024",
+      title: "SLIIT CodeFest Algothon Finalist",
+      date: "21 Jan 2025",
       description:
-          "Officially Get Certified with Microsoft Certified Azure Fundamentals (az-900)",
+          "After the competitive second rounds We were finalist of SLIIT CodeFest Algothon 2024",
       image: blog5,
-      tag: "Certification",
+      tag: "Hackathon",
      },
      
      {
@@ -21,7 +21,7 @@ const blogs = [
       description:
       "We are the top 3 in Srilanka and top 100 in global In the biggest 24hr coding marathon",
       image: blog4, 
-      tag: "Hackathon",
+      tag: "Competition",
      },
     
     {
