@@ -76,7 +76,7 @@ const Home = () => {
               View Portfolios
             </a>
             <a
-              href="https://drive.google.com/file/d/1yXGYUh5qwR8dWErC22V59aXMVjoHczCB/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/186KAj5X9pzCN6SjVZTvmcFsaBrNCeqpK?usp=sharing"
               className="bg-gray-900 text-white dark:bg-white dark:text-gray-900 py-2 px-4 lg:py-3 lg:px-4 rounded-full shadow-md  hover:shadow-lg transition duration-300"
             >
               Download Resume
