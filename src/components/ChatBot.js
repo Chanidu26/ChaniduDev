@@ -40,11 +40,11 @@ const Chatbot = () => {
   };
 
   return (
-    <div className="fixed bottom-4 right-4">
+    <div className="fixed bottom-16 right-4">
       {/* Chat toggle button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-       className="fixed bottom-16 right-4 bg-blue-600 text-white p-3 rounded-full mb-2 shadow-lg transition duration-300"
+       className="bottom-15 right-4 bg-yellow-300 text-gray-800 p-3 rounded-full mb-1 shadow-lg transition duration-300"
       >
         {isOpen ? <IoIosCloseCircle className='text-2xl'/> : <TbMessageChatbotFilled className='text-2xl'/>}
       </button>
@@ -53,8 +53,8 @@ const Chatbot = () => {
       {isOpen && (
         <div className="bg-white rounded-lg shadow-xl w-80 h-96 flex flex-col">
           {/* Header */}
-          <div className="bg-blue-600 text-white p-4 rounded-t-lg">
-            <h3 className="font-bold">Chat with Chanidu</h3>
+          <div className="bg-yellow-300 text-gray-800 p-4 rounded-t-lg">
+            <h3 className='font-bold'>Chat with Chanidu</h3>
           </div>
 
           {/* Messages */}
@@ -68,7 +68,7 @@ const Chatbot = () => {
                   className={`max-w-[80%] p-3 rounded-lg ${
                     message.isBot
                       ? 'bg-gray-100 text-gray-800'
-                      : 'bg-blue-600 text-white'
+                      : 'bg-yellow-300 text-gray-800'
                   }`}
                 >
                   {message.text}
@@ -89,7 +89,7 @@ const Chatbot = () => {
               />
               <button
                 type="submit"
-                className="bg-blue-600 text-white px-4 rounded-lg hover:bg-blue-700 font-medium"
+                className="bg-yellow-300 text-gray-800 px-4 rounded-lg hover:bg-yellow-400 font-medium"
               >
                 Send
               </button>
