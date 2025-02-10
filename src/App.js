@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Blog from './components/Blog';
 import { useState } from'react';
 import DarkMode from './components/Darkmode';
+import Chatbot from './components/ChatBot';
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -27,6 +28,7 @@ function App() {
       <Projects />
       <Contact />
       <DarkMode />
+      <Chatbot />
     </div>
   );
 }
