@@ -1,6 +1,7 @@
 import React from "react";
 import profile from "../assets/profile.JPG";
 import { useTypewriter } from "react-simple-typewriter"
+import { IoMdCloudDownload } from "react-icons/io";
 const Home = () => {
     const [ text ] = useTypewriter({
       words: ['DevOps', 'Cloud', 'Fullstack', 'ML and AI'],
@@ -79,7 +80,7 @@ const Home = () => {
               href="https://drive.google.com/drive/folders/186KAj5X9pzCN6SjVZTvmcFsaBrNCeqpK?usp=sharing"
               className="bg-gray-900 text-white dark:bg-white dark:text-gray-900 py-2 px-4 lg:py-3 lg:px-4 rounded-full shadow-md  hover:shadow-lg transition duration-300"
             >
-              Download Resume
+              <span className="flex items-center justify-center gap-2">Download CV <IoMdCloudDownload className="text-2xl" /> </span>
             </a>
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { IoLogoGithub } from "react-icons/io";
 const Projectcard = ({id,image,title,description,technologies,link}) => {
   return (
          <div
@@ -35,7 +35,7 @@ const Projectcard = ({id,image,title,description,technologies,link}) => {
                   rel="noopener noreferrer"
                   className="block text-center mt-3 bg-yellow-300 text-gray-900 py-2 rounded hover:bg-yellow-400"
                 >
-                  View Project
+                  <span className="flex items-center justify-center gap-2">View Project on <IoLogoGithub /></span>
                 </a>
               </div>
             </div>
