@@ -1,6 +1,5 @@
 import blog1 from '../assets/blog1.jpeg'
 import blog3 from '../assets/blog3.jpeg'
-import blog4 from '../assets/blog4.png'
 import blog5 from '../assets/blog5.png'
 const blogs = [
      
@@ -13,19 +12,9 @@ const blogs = [
       image: blog5,
       tag: "Hackathon",
      },
-     
-     {
-      id: 2,
-      title: "IEEE Xtreme 18.0 | 3rd Place in Srilanka | 93rd Place Global",
-      date: "28 Oct 2024",
-      description:
-      "We are the top 3 in Srilanka and top 100 in global In the biggest 24hr coding marathon",
-      image: blog4, 
-      tag: "Competition",
-     },
     
     {
-      id: 3,
+      id: 2,
       title: "Field Visit 2024 | Creative Software",
       date: "29 Oct 2024",
       description:
@@ -34,7 +23,7 @@ const blogs = [
       tag: "Industry",
     },
     {
-      id: 4,
+      id: 3,
       title: "CareerXpo 1.0 2024",
       date: "27 Sep 2024",
       description:

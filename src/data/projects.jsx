@@ -15,11 +15,11 @@ const projects = [
     },
     {
       id: 2,
-      title: "QuizCrash (Ongoing)",
+      title: "QuizCrash",
       description: "Quiz app to teachers can schedule quizzes and students can do quizzes with realtime leaderboard updates.",
       technologies: ["Vite", "Tailwind CSS", "SocketIO","JWT","ExpressJs", "MongoDB", "Nodejs", "Git"],
       image: project5, 
-      link: "https://github.com/Chanidu26/NP-Frontend",
+      link: "https://github.com/WebCooper/NP-Frontend",
     },
     {
       id: 3,
