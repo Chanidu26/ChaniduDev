@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "../assets/Profile.jpg";
+import profile from "../assets/profile.jpg";
 import { useTypewriter } from "react-simple-typewriter"
 import { IoMdCloudDownload } from "react-icons/io";
 const Home = () => {
