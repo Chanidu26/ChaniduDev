@@ -1,5 +1,6 @@
 import React from "react";
 import profile from "../assets/profile.JPG";
+import DP from "../assets/dp.JPG";
 import { useTypewriter } from "react-simple-typewriter"
 import { IoMdCloudDownload } from "react-icons/io";
 const Home = () => {
@@ -16,7 +17,7 @@ const Home = () => {
         {/* Profile Section */}
         <div className="flex flex-col items-center">
           <img
-            src={profile}
+            src={DP}
             alt="Chanidu"
             className="w-60 h-60 rounded-full border-2 border-white shadow-lg mb-6 "
           />
